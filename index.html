@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>N-Puzzle</title>
+  <meta name="description" content="Online N-Puzzle game">
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/htmsk138/hs-app-css@v1.0/dist/hs-app.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize-css@2.3.1/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/hs-npuzzle.css">
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <h1>N-Puzzle</h1>
+      <div class="controls">
+        <select id="size">
+          <option value="3">3 x 3</option>
+          <option value="4" selected="selected">4 x 4</option>
+          <option value="5">5 x 5</option>
+        </select>
+        <button id="reset">Reset</button>
+      </div>
+
+      <div id="frame">
+        <div id="board">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="copyright">
+    By <a href="https://hitomiseki.com" target="_blank" rel="noopener">Hitomi Seki</a>
+  </p>
+
+  <script src="js/hs-npuzzle.js"></script>
+</body>
+</html>
